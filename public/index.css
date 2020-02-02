@@ -1,0 +1,25 @@
+.content {
+  height: 100vh;
+  width: 100%;
+  background-color: pink; }
+
+body {
+  margin: 0; }
+
+[data-v-1adb287b] canvas {
+  width: 100%;
+  height: 100%;
+}
+.doc-wrap[data-v-1adb287b] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.scene-wrap[data-v-1adb287b] {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+

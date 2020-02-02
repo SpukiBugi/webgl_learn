@@ -1,0 +1,49 @@
+{
+  "name": "starting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server"
+  },
+  "author": "vincent",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.3",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-pug-plugin": "^2.0.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-webpack": "^5.0.0",
+    "install": "^0.13.0",
+    "vue": "^2.6.11",
+    "write-file-webpack-plugin": "^4.5.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.3.2",
+    "cssnano": "^4.1.10",
+    "es6-tween": "^5.5.10",
+    "glsl-shader-loader": "^0.1.6",
+    "gsap": "^3.0.4",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^0.23.1",
+    "three": "^0.111.0",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.11",
+    "vue-threejs": "^0.2.0-alpha.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
